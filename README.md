@@ -8,10 +8,8 @@
 본 프로젝트는 인도네시아 패션 이커머스 기업 ‘패션캠퍼스’ 에서의 최근 2개월 동안의 매출 하락 문제를 해결하고자 기획했습니다.
 
 <p align="center">
-  <figure>
     <img src="https://github.com/hm98112/DataAchiever/assets/120023920/1e628dfa-5c0e-4e26-86e9-51f0084a12b5" alt="signup-graph"/><br/>
-    <figcaption align="center">누적 회원가입 고객 수 (22년 07월 집계)</figcaption>
-  </figure>
+    누적 회원가입 고객 수 (22년 07월 집계) 
 </p>
 
 위 그래프 처럼 매년 가입한 회원의 수는 증가하고 있지만 실제 구매가 이어지고 있는 고객은 
