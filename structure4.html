@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>테마 선택</title>
+    <style>
+        /* 스타일 코드 생략 */
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.theme-checkbox').change(function() {
+                var totalPrice = 0;
+                $('.theme-checkbox:checked').each(function() {
+                    totalPrice += parseFloat($(this).data('price'));
+                });
+                $('#total-price').text(totalPrice.toFixed(2));
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>테마 선택</h1>
+    <form action="/calculate" method="post">
+        {% for theme_id, theme in themes.items() %}
+            <input type="checkbox" name="themes" value="{{ theme_id }}" data-price="{{ theme.price }}" class="theme-checkbox">
+            <label>{{ theme.name }}</label><br>
+        {% endfor %}
+        <br>
+        <h2>총 가격: <span id="total-price">0.00</span></h2>
+        <input type="submit" value="계산">
+    </form>
+</body>
+</html>
