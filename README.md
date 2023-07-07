@@ -29,14 +29,17 @@
 3) 데이터 분석 : 고객 세분화, 세그먼트 별 데이터 분석, 퍼널분석, 이탈함수 제작<br/>
 4) 이탈모형 제작 : 이탈 판별 지표 선정 , 이탈 모형 제작, 모형 성능 최적화 및 시각화<br/>
 
-팀원들의 역할 분담
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fe2b23d3-33ba-4703-b483-567c5595ab0e/Untitled.png)
+5) 팀원들의 역할 분담<br/>
 
-| 5. 어떤 데이터를 활용했으며, 출처는 어디인가요? 데이터의 특성(크기, 종류 등등)은 어떠한가요?    |
-| --- |
-|  |
+![image](https://github.com/hm98112/DataAchiever/assets/120023920/90bba0f4-8c60-4c21-9f23-792b4e661594)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e8ed91ec-fac3-4d98-b4ad-14a13b49e370/Untitled.png)
+
+### 4. 데이터 출처 및 정보
+데이터출처: [kaggle fashion campus](https://www.kaggle.com/datasets/latifahhukma/fashion-campus)
+![image](https://github.com/hm98112/DataAchiever/assets/120023920/308a3c12-37c9-421e-aa5f-55e074ff5eaa)
+
+
+
 
 | 6. 각 팀원들은 어떤 업무를 수행하셨나요? 그 업무를 수행하기 위해 어떤 일을 하셨나요? 어떤 알고리즘, 모델, 기법 등을 사용했나요? 각 팀원별로 구분하여 작성해 주세요.   |
 | --- |
